@@ -1,5 +1,21 @@
 function pingPong() {
 
+    for (let i = 0; i <= 100; i++ ){
+        if( i % 10 === 0){
+
+            console.log("P0NG");
+
+        }else if( i % 5 === 0){
+
+            console.log("PiNG");
+
+        }else{
+
+            console.log(i);
+
+        }
+    }
+
 }
 
 pingPong()
